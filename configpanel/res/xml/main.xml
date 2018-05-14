@@ -4,7 +4,7 @@
         android:title="@string/category_vibrator">
         <com.cyanogenmod.settings.device.VibratorStrengthPreference
             android:key="vib_strength"
-            android:iconSpaceReserved="true"
+            android:iconSpaceReserved="false"
             android:title="@string/vib_strength_title_head"
             android:summary="@string/vib_strength_summary_head" />
     </PreferenceCategory>
@@ -14,10 +14,12 @@
         android:title="@string/category_display">
         <SwitchPreference
             android:key="taptowake"
+            android:iconSpaceReserved="false"
             android:summary="@string/taptowake_summary"
             android:title="@string/taptowake_title" />
         <Preference
             android:key="device_doze"
+            android:iconSpaceReserved="false"
             android:persistent="false"
             android:title="@string/device_doze_title" >
             <intent android:action="android.intent.action.MAIN"
